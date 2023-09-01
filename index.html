@@ -11,14 +11,14 @@
 </head>
 <body> 
     <header>
-                  <nav class="mx-[50px] my-[30px] ">
+                  <nav class="mx-[50px] my-[30px]  ">
                              
                     <div class="navbar bg-base-100 flex items-center flex-col md:flex-row">
                         <div class="navbar-start mb-8">
                           <img src="./image/Logo.png" alt="">
                         </div>
-                        <div id="sort-btn" class="navbar-center mb-8">
-                          <a class=" text-[#252525] text-xl font-medium bg-[#19191933] px-4 py-2 rounded-md cursor-pointer">Sort by view</a>
+                        <div onclick="fetchAndSortVideosByViews()" id="sort-btn" class="navbar-center mb-8">
+                          <a  class=" text-[#252525] text-xl font-medium bg-[#19191933] px-4 py-2 rounded-md cursor-pointer">Sort by view</a>
                         </div>
                         <div class="navbar-end lg:mr-1 mr-16">
 
@@ -40,7 +40,7 @@
             
 
       <div id="notFound" class="md:w-1/2 lg:w-1/3 flex justify-center items-center gap-5 font-bold text-6xl text-center mx-auto">
-       
+         
         <h1>Not found any data !!!!!</h1>
 
     </div>
