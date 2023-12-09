@@ -6,7 +6,7 @@ it's basically a video  watching platform website (only frontend)
 - you can sort the videos by they are viecateg
 - you have some categories for choose the videos
 
-#Technology and Tools
+# Technology and Tools
 - Javascript
 - HTML
 - CSS
